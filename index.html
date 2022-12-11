@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Cole's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/style.css"/>
     </head>
     <body>
@@ -11,12 +12,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About</a></li>
-                    <li>
-                        <a href="#">My Work</a>
+                        <a href="#about-me">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -28,19 +30,38 @@
                 <p>This is where I want my photo to be</p>
             </aside>
             <section>
-                <h2>About Me</h2>
-                <p>Hi, I am Cole Hartkopp. I'm 21 years old and a Kansas City native. I was diagnosed with Acute Myloid Leukemia fall of 2020 and I still went to my first two years of college while going through chemotherapies. Spring 2022 I was forced to put my health first and I spent 3 months in the ICU at the Kansas University Medical Center. I decided I wanted to do something different because after such a long time not working on school, I decided to start coding and it has been so much more interesting and engaging than my mechanical engineering courses. I am intending to go into the work force as soon as I can. I am very passionate about my work and want to make other peoples time spent on the internet more enjoyable. Despite fighting cancer I believe that I would be a great future employee because I have faced such diversity and learned to overcome all challenges thrown at me.</p>
                 <br>
-                <h2>My Work</h2>
-                <div class="project-card">
-                    <!-- <img> -->
-                </div>>
+                    <div id="about-me" class="about-me">
+                    <h2>About Me</h2>
+                    <p>Hi, I am Cole Hartkopp. I'm 21 years old and a Kansas City native. I was diagnosed with Acute Myloid Leukemia fall of 2020 and I still went to my first two years of college while going through chemotherapies. Spring 2022 I was forced to put my health first and I spent 3 months in the ICU at the Kansas University Medical Center. I decided I wanted to do something different because after such a long time not working on school, I decided to start coding and it has been so much more interesting and engaging than my mechanical engineering courses. I am intending to go into the work force as soon as I can. I am very passionate about my work and want to make other peoples time spent on the internet more enjoyable. Despite fighting cancer I believe that I would be a great future employee because I have faced such diversity and learned to overcome all challenges thrown at me.
+                    </p>
+                    </div>
+                <br>
+                <div id="my-work"class="project-card">
+                    <h2>My Work</h2>
+                    <h3>Horiseon Homepage</h3>
+                    <a href="https://zencoh.github.io/horiseon-challenge/"><img src="./assets/images/Horiseon screenshot 1.png"  width="550" height="300" alt="Horiseon Homepage"></a>
+                    <h3>Prework Study Guide</h3>
+                    <a href="https://zencoh.github.io/prework-study-guide/"><img src="./assets/images/prework-study-guide.png" width="350"  height="200" alt="Prework Study Guide"></a>
+                    <h3>New projects coming soon</h3>
+                </div>
             </section>
         </main>
         <footer>
-            <h3>
-                This is where I will put my contact info
-            </h3>
+            <div id="contact">
+            <h3>Contact Me</h3>
+            <ul>
+                <li>
+                    <a href="mailto:chartkopp@outlook.com">Send Email</a>
+                </li>
+                <li>
+                    <a href="tel:816-730-2601">Call me at 816-730-2601</a>
+                </li>
+                <li>
+                    <a href="https://github.com/zencoh/my-portfolio.git">GitHub</a>
+                </li>
+            </ul>
+            </div>
         </footer>
     </body>
 </html>
