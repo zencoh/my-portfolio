@@ -20,7 +20,7 @@ nav ul{
     justify-content: space-between;
     min-width: 300px;
     list-style: none;
-    margin: 8px;
+    margin: 20px;
 }
 nav a:hover{
     color: lightblue;
@@ -35,12 +35,16 @@ main{
     flex-wrap: wrap;
 }
 aside{
-    flex-grow: 30%;
+    flex: 1;
     background-color: green;
-    padding: 16px;
+    padding: 20px;
 }
 section{
-    flex: 70%;
+    flex: 3;
     background-color: white;
-    padding: 16px;
+    padding: 20px;
+}
+.project-card{
+    padding: 2rem;
+    outline: dashed; color:red;
 }
