@@ -3,6 +3,7 @@
     --text: #C9E1D7;
     --sidebar: #264042;
     --hover: #ADD8E6;
+    --pixel: 20px;
 }
 *{
     margin: 0;
@@ -28,7 +29,7 @@ nav ul{
     justify-content: space-between;
     min-width: 300px;
     list-style: none;
-    margin: 20px;
+    margin: var(--pixel);
 }
 nav a:hover{
     color: var(--hover);
@@ -45,14 +46,23 @@ main{
 aside{
     flex: 1;
     background-color: var(--sidebar);
-    padding: 20px;
+    padding: var(--pixel);
     color: var(--text);
 }
 section{
     flex: 3;
     background-color: var(--background);
-    padding: 20px;
+    padding: var(--pixel);
     color: var(--text);
+}
+div{
+    padding: var(--pixel);
+}
+img{
+    border: 5px solid var(--sidebar);
+}
+img:hover{
+    border: 5px solid var(--hover);
 }
 .about-me{
     padding: 1rem;
@@ -74,11 +84,11 @@ footer ul{
     justify-content: space-between;
     min-width: 300px;
     list-style: none;
-    margin: 20px;
+    margin: var(--pixel);
 }
 footer li{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: var(--pixel);
+    padding-right: var(--pixel);
 }
 footer a{
     font-weight: bold;
@@ -88,3 +98,9 @@ footer a{
 footer a:hover{
     color: var(--hover);
 }
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+    }
+@media screen and (max-width: 600px) {
+    }
